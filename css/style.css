@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "greeting.css";
+@import "navigator.css";
+@import "profile.css";
+@import "variations.css";
+@import "navigation-bar.css";
+
+body{
+    height: 110vh;
+}
+
+a {
+    text-decoration: none;
+}
