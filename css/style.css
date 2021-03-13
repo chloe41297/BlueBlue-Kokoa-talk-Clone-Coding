@@ -6,7 +6,8 @@
 @import "profile.css";
 @import "variations.css";
 @import "navigation-bar.css";
-
+@import "chats.css";
+@import "chat.css";
 body{
     height: 110vh;
 }
