@@ -14,11 +14,14 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    box-shadow: 0px 1px 4px 4px var(--main-theme-skyblue);
+    box-shadow: 0px 3px 4px 4px whitesmoke;
+    background-color: var(--main-theme-skyblue);
+   
 }
 .main__profile__img:hover{
     transform: scale(1.2);
 }
+
 .main__profile__name{
     height: 20px;
     margin-left: 40px;
@@ -26,7 +29,6 @@
     font-size: 30px;
     background-color: black;
     color: white;
-    box-shadow: 0px 2px 4px 4px var(--main-theme-skyblue);
     padding: 5px 20px 10px 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -56,7 +58,7 @@
 .friends__list img {
     width: 60px;
     height: 60px;
-    background-color: black;
+
 }
 .friends__list .main__profile {
     margin-top: -10px;
