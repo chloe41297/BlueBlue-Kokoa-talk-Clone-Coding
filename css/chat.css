@@ -46,6 +46,7 @@
     border-radius: 50%;
     margin-right: 20px;
 }
+
 .main__chatting__other__text{
     margin-right: 10px;
     margin-top: 10px;
@@ -87,4 +88,68 @@
     border-top-left-radius:20px;
     border-bottom-right-radius:20px;
     border-bottom-left-radius: 20px;
+}
+.typing{
+    display: flex;
+    justify-content: flex-start;
+    position:fixed;
+    bottom: 0;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: black;
+    
+}
+.typing .fa-plus-circle{
+    font-size: 23px;
+    margin-top: 3px;
+    color: var(--main-theme-skyblue);
+}
+.fa-plus-circle:hover{
+   transform: scale(1.2);
+}
+.typing input{
+    margin-left: 10px;
+    width: 83vw;
+    height: 25px;
+    border:none;
+    border-radius: 25px;
+}
+.typing__input :focus{
+    width: 90vw;
+    
+}
+.typing__input:focus ~ .typing__icons{
+    display: none;
+}
+.typing form{
+ß
+    display: flex;
+
+}
+.typing__icons{
+   
+    color: var(--main-theme-skyblue);
+    top:4px;
+    right: 8px;
+    font-size: 20px;
+    position: relative;
+}
+.typing__icons :first-child{
+    position: absolute;
+    right: 27px;
+    bottom:6px;
+}
+.typing__icons :nth-child(2){
+    background-color: var(--main-theme-skyblue);
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    width: 25px;
+    height: 20px;
+    padding-top: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: -3px;
+    bottom:5px;
+
 }
