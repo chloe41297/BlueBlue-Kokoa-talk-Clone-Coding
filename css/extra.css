@@ -1,0 +1,36 @@
+.more-screen .icon-row{
+	margin: 20px 20px 0px 20px;
+
+}
+.more__app__info{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(0,0,0,0.4);
+
+}
+.more__app__info__icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 30px 0px 0px 0px var(--main-theme-skyblue);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.more__app__info__icon:hover{
+    transform: scale(1.2);
+}
+.more__app__info__text{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.more__app__info__text div{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.4);
+}
