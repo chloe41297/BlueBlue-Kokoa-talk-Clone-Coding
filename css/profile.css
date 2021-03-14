@@ -54,7 +54,9 @@
     border-radius: 50%;
     background-color: black;
 }
-
+.friends__list{
+    overflow-y: scroll ;
+}
 .friends__list img {
     width: 60px;
     height: 60px;

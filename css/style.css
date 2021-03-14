@@ -8,6 +8,13 @@
 @import "navigation-bar.css";
 @import "chats.css";
 @import "chat.css";
+@import "search.css";
+@import "extra.css";
+@import "settings.css";
+@import "no-mobile.css";
+@import "splash.css";
+
+
 body{
     height: 110vh;
 }
