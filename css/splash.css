@@ -1,0 +1,61 @@
+@keyframes splash {
+    form{
+        opacity: 1;
+    }
+    to
+    {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes blink {
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: var(--main-theme-skyblue);
+    }
+    50%{
+        background-color: black;
+    }
+    100%{
+        background-color: var(--main-theme-skyblue);
+    }
+}
+#splash-screen{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   animation: splash 1s ease-in-out forwards;
+   animation-delay: 2.2s;
+}
+
+#splash-screen .more__app__info__icon{
+    margin-top: 35vh;
+}
+.splash-screen__icons{
+    text-align: center;
+}
+.splash-screen__roading{
+    display: flex;
+    justify-content: center;
+    margin-left: 18px;
+}
+.roading_icons{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 60px 10px 0px 10px;
+    animation: blink 2s ease-in-out;
+}
+.roading_icons:nth-child(2){
+    animation-delay: 0.2s;
+}
+.roading_icons:nth-child(3){
+    animation-delay: 0.4s;
+}
