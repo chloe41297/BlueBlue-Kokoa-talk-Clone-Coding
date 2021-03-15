@@ -6,6 +6,7 @@
     margin-top: 20px;
     padding: 20px;
     border-radius: 20px;
+    transition: all 0.3s ease-in-out;
 }
 .main__profile:hover{
     box-shadow: 0 2px 3px 3px whitesmoke;
@@ -16,7 +17,7 @@
     border-radius: 50%;
     box-shadow: 0px 3px 4px 4px whitesmoke;
     background-color: var(--main-theme-skyblue);
-   
+    transition: all 0.3s ease-in-out;
 }
 .main__profile__img:hover{
     transform: scale(1.2);

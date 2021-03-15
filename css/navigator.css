@@ -15,6 +15,9 @@
 .top__navigator__column:nth-child(2) i{
     margin-left: 20px;
 }
+.top__navigator__column{
+    transition: all 0.3s ease-in-out;
+}
 .top__navigator__column  :hover{
     color: var(--main-theme-skyblue);
     transform: scale(1.2);
